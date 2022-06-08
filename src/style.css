@@ -23,3 +23,29 @@ body {
 .logoText {
     color: #FF5A5F;
 }
+
+.heroSection {
+    width: 85%;
+    margin: auto;
+}
+
+.gridImageSec {
+    /* width: 100%; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.gridTextSec {
+    margin-top: 2%;
+}
+
+.gridHead {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.gridPara {
+    font-size: 20px;
+}

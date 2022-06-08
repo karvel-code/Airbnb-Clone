@@ -6,7 +6,10 @@ function Navbar () {
     return(
         <div>
             <nav className="navbar">
-                <img src={Airbnb} className="airbnb-logo" />
+                <div>
+                    <img src={Airbnb} className="airbnb-logo" />
+                </div>
+                
                 {/* <h2 className="logoText">airbnb</h2> */}
             </nav>
             
