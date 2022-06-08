@@ -101,3 +101,8 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+.contactSection {
+    display: flex;
+    flex-direction: row;
+}

@@ -3,8 +3,22 @@ import AthletePhoto from "../images/athlete.png";
 import Star from "../images/star.png";
 
 export default function Card() {
+    const date = new Date()
+    const hour = date.getHours()
+    let timeOfDay
+
+    // if (hour < 12) {
+    //     timeOfDay = "Morning"
+    // } else if (hour >= 12 && hour < 18) {
+    //     timeOfDay = "Afternoon"
+    // } else {
+    //     timeOfDay = "Night"
+    // }
+
     return(
         <div className="experienceSec">
+            {/* <h1>{timeOfDay}</h1>
+            <h1>{hour}</h1> */}
             <div className="experienceCard">
                 <img src={AthletePhoto} className="athletePhoto" alt="" />
                 <div className="infoSec">
@@ -13,7 +27,7 @@ export default function Card() {
                         <p className="ratingText"> (6) . USA </p>
                     </div>
                     <p className="cardText">Life Lessons with Mr Githinji</p>
-                    <p className="cardText">From $136/person</p>
+                    <p className="cardText"><b>From $136</b>/person</p>
                 </div>
             </div>
             <div className="experienceCard">
@@ -24,7 +38,7 @@ export default function Card() {
                         <p className="ratingText"> (6) . USA </p>
                     </div>
                     <p className="cardText">Life Lessons with Mr Githinji</p>
-                    <p className="cardText">From $136/person</p>
+                    <p className="cardText"><b>From $136</b>/person</p>
                 </div>
             </div>
             
