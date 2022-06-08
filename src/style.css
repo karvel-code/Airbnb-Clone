@@ -49,3 +49,55 @@ body {
 .gridPara {
     font-size: 20px;
 }
+
+.experienceCard {
+    display: flex;
+    flex-direction: column;
+    width: 13.5%;
+    /* background-color: aqua; */
+    border-radius: 7px;
+    
+}
+
+.athletePhoto {
+    height: 180px;
+}
+
+.infoSec {
+    padding: 1.5%;
+}
+
+.ratingSec {
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    gap: 3%;
+}
+
+.ratingText {
+    font-size: 10px;
+    padding-bottom: 2px;
+    margin: 2px;
+}
+
+.star {
+    width: 10px;
+    height: 10px;
+}
+
+.cardText {
+    font-size: 11px;
+    padding-bottom: 2px;
+    margin: 2px;
+}
+
+.experienceSec {
+    width: 85%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    gap: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
