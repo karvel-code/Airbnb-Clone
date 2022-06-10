@@ -24,7 +24,7 @@ export default function Card(props) {
                 <div className="infoSec">
                     <div className="ratingSec">
                         <img src={Star} className="star" alt="" />
-                        <p className="ratingText"> ({props.reviewCount}) . USA </p>
+                        <p className="ratingText"> <span>{props.rating}</span>({props.reviewCount}) . USA </p>
                     </div>
                     <p className="cardText">{props.title}</p>
                     <p className="cardText"><b>${props.price}</b>/person</p>

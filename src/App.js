@@ -14,7 +14,8 @@ function App() {
         {/* <Navbar />
         <Hero />
         <Card /> */}
-        <Card 
+        <Card
+        key={card.id}
         img="athlete.png"
         rating={card.stats.rating}
         reviewCount={card.stats.reviewCount}
