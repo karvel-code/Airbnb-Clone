@@ -61,7 +61,7 @@ export default [
             rating: 4.0,
             reviewCount: 25
         }, 
-        location: "LA",
+        location: "Online",
         openCount: 2
     }
 ]
