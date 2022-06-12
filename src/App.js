@@ -22,6 +22,8 @@ function App() {
         country="Kenya"
         title={card.title}
         price={card.price}
+        openCount={card.openCount}
+        location={card.location}
         // className="experienceCard"
         />
         {/* <Contact 

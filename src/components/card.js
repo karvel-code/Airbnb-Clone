@@ -14,6 +14,14 @@ export default function Card(props) {
     // } else {
     //     timeOfDay = "Night"
     // }
+    let badgeText
+    if (props.openCount == 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.location == "Online") {
+        badgeText = "ONLINE"
+    } else if (props.location == "Online" && props.openCount == 0) {
+        badgeText = "SOLD OUT"
+    }
 
     return(
         <div className="">
@@ -21,11 +29,11 @@ export default function Card(props) {
             <h1>{hour}</h1> */}
             <div className="experienceCard">
                 <img src={AthletePhoto} className="athletePhoto" alt="" />
-                <h4 className="badgeText">SOLD OUT</h4>
+                <h4 className="badgeText">{badgeText}</h4>
                 <div className="infoSec">
                     <div className="ratingSec">
                         <img src={Star} className="star" alt="" />
-                        <p className="ratingText"> <span>{props.rating}</span>({props.reviewCount}) . USA </p>
+                        <p className="ratingText"> <span>{props.rating}</span>({props.reviewCount}) . {props.location} </p>
                     </div>
                     <p className="cardText">{props.title}</p>
                     <p className="cardText"><b>From ${props.price}</b>/person</p>

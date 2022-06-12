@@ -10,6 +10,7 @@ export default [
             reviewCount: 30
         }, 
         location: "Online",
+        openCount: 0
     },
     {
         id: 2, 
@@ -22,6 +23,7 @@ export default [
             reviewCount: 50
         }, 
         location: "Online",
+        openCount: 1
     },
     {
         id: 3, 
@@ -34,5 +36,6 @@ export default [
             reviewCount: 25
         }, 
         location: "LA",
+        openCount: 2
     }
 ]
