@@ -16,31 +16,22 @@ export default function Card(props) {
     // }
 
     return(
-        <div className="experienceSec">
+        <div className="">
             {/* <h1>{timeOfDay}</h1>
             <h1>{hour}</h1> */}
             <div className="experienceCard">
                 <img src={AthletePhoto} className="athletePhoto" alt="" />
+                <h4 className="badgeText">SOLD OUT</h4>
                 <div className="infoSec">
                     <div className="ratingSec">
                         <img src={Star} className="star" alt="" />
                         <p className="ratingText"> <span>{props.rating}</span>({props.reviewCount}) . USA </p>
                     </div>
                     <p className="cardText">{props.title}</p>
-                    <p className="cardText"><b>${props.price}</b>/person</p>
+                    <p className="cardText"><b>From ${props.price}</b>/person</p>
                 </div>
             </div>
-            {/* <div className="experienceCard">
-                <img src={AthletePhoto} className="athletePhoto" alt="" />
-                <div className="infoSec">
-                    <div className="ratingSec">
-                        <img src={Star} className="star" alt="" />
-                        <p className="ratingText"> {props.reviewCount} . USA </p>
-                    </div>
-                    <p className="cardText">Life Lessons with Mr Githinji</p>
-                    <p className="cardText"><b>From $136</b>/person</p>
-                </div>
-            </div> */}
+
             
         </div>
     )

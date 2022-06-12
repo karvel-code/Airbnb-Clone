@@ -10,7 +10,7 @@ import cardData from './data'
 function App() {
   const cards = cardData.map(card =>{
     return (
-      <div className="page">
+      <div>
         {/* <Navbar />
         <Hero />
         <Card /> */}
@@ -22,6 +22,7 @@ function App() {
         country="Kenya"
         title={card.title}
         price={card.price}
+        // className="experienceCard"
         />
         {/* <Contact 
         title="Life Lessons with Mr Githinji"
@@ -39,9 +40,12 @@ function App() {
     );
   })
   return (
-    <div>
+    <div className="page">
       <Navbar />
-      {cards}
+      <div className='cardSection'>
+        {cards}
+      </div>
+      
     </div>
   )
   
