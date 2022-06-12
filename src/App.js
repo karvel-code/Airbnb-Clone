@@ -16,6 +16,7 @@ function App() {
         <Card /> */}
         <Card
         key={card.id}
+        // card={card}
         img="athlete.png"
         rating={card.stats.rating}
         reviewCount={card.stats.reviewCount}
@@ -24,7 +25,7 @@ function App() {
         price={card.price}
         openCount={card.openCount}
         location={card.location}
-        // className="experienceCard"
+        className="experienceCard"
         />
         {/* <Contact 
         title="Life Lessons with Mr Githinji"
@@ -44,6 +45,7 @@ function App() {
   return (
     <div className="page">
       <Navbar />
+      <Hero />
       <div className='cardSection'>
         {cards}
       </div>

@@ -29,7 +29,8 @@ export default function Card(props) {
             <h1>{hour}</h1> */}
             <div className="experienceCard">
                 <img src={AthletePhoto} className="athletePhoto" alt="" />
-                <h4 className="badgeText">{badgeText}</h4>
+                {badgeText && <h4 className="badgeText">{badgeText}</h4>}
+                
                 <div className="infoSec">
                     <div className="ratingSec">
                         <img src={Star} className="star" alt="" />

@@ -37,5 +37,31 @@ export default [
         }, 
         location: "LA",
         openCount: 2
+    },
+    {
+        id: 4, 
+        title: "Learning Music",
+        description: "Some text about the topic goes here",
+        price: 179,
+        coverImg: "athlete.png",
+        stats: {
+            rating: 4.0,
+            reviewCount: 25
+        }, 
+        location: "Lagos",
+        openCount: 2
+    },
+    {
+        id: 5, 
+        title: "Learning something exciting",
+        description: "Some text about the topic goes here",
+        price: 0,
+        coverImg: "athlete.png",
+        stats: {
+            rating: 4.0,
+            reviewCount: 25
+        }, 
+        location: "LA",
+        openCount: 2
     }
 ]
