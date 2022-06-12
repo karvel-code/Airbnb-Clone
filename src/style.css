@@ -1,0 +1,110 @@
+
+.page {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0.1);
+    height: 60px;
+    padding: 1% 0 1% 4%;
+}
+
+.airbnb-logo {
+    /* width: 100px; */
+    height: 50px;
+}
+
+.logoText {
+    color: #FF5A5F;
+}
+
+.heroSection {
+    width: 85%;
+    margin: auto;
+}
+
+.gridImageSec {
+    /* width: 100%; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.gridTextSec {
+    margin-top: 2%;
+}
+
+.gridHead {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.gridPara {
+    font-size: 20px;
+}
+
+
+/* .athletePhoto {
+    height: 180px;
+} */
+
+.infoSec {
+    padding: 1.5%;
+}
+
+.ratingSec {
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    gap: 3%;
+}
+
+.ratingText {
+    font-size: 15px;
+    padding-bottom: 2px;
+    margin: 2px;
+}
+
+.experienceCard {
+    border-radius: 10px;
+    position: relative;
+    /* margin-right: 3%; */
+}
+
+/* .cardText {
+    font-size: 11px;
+    padding-bottom: 2px;
+    margin: 2px;
+} */
+
+
+
+.contactSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardSection {
+    display: flex;
+    width: 100%;
+    padding: 3%;
+    overflow: scroll;
+    gap: 3%;
+}
+
+.badgeText {
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5%;
+    opacity: 0.7;
+}
